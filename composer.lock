@@ -1,0 +1,88 @@
+{
+    "hash": "3583724715cdd7f5a778da7c516c690a",
+    "packages": [
+        {
+            "name": "adduc/javascript_installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/Adduc/javascript_installer",
+                "reference": "b14e0c2eb3edf4cc34e446e4dfcd21ad3826c920"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adduc/javascript_installer/zipball/b14e0c2eb3edf4cc34e446e4dfcd21ad3826c920",
+                "reference": "b14e0c2eb3edf4cc34e446e4dfcd21ad3826c920",
+                "shasum": ""
+            },
+            "time": "2012-12-28 15:08:32",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Adduc\\JavascriptInstaller\\JavascriptInstaller"
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Adduc\\JavascriptInstaller": "src"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John Long",
+                    "email": "a@88k.us"
+                }
+            ],
+            "description": "Javascript file management for composer",
+            "support": {
+                "source": "https://github.com/Adduc/javascript_installer/tree/master",
+                "issues": "https://github.com/Adduc/javascript_installer/issues"
+            }
+        },
+        {
+            "name": "adduc/jquery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/Adduc/jquery",
+                "reference": "a57b78c246ea8f1c6aac7cadb0bc325635d3d3c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adduc/jquery/zipball/a57b78c246ea8f1c6aac7cadb0bc325635d3d3c6",
+                "reference": "a57b78c246ea8f1c6aac7cadb0bc325635d3d3c6",
+                "shasum": ""
+            },
+            "require": {
+                "adduc/javascript_installer": "*"
+            },
+            "time": "2012-12-28 15:15:14",
+            "type": "javascript-library",
+            "installation-source": "source",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Long",
+                    "email": "a@88k.us"
+                }
+            ],
+            "description": "Shim for jQuery support in Composer",
+            "support": {
+                "source": "https://github.com/Adduc/jquery/tree/master",
+                "issues": "https://github.com/Adduc/jquery/issues"
+            }
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}

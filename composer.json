@@ -1,0 +1,28 @@
+{
+    "name": "adduc/javascript_test",
+    "description": "TEST",
+    "authors": [
+        {
+            "name": "John Long",
+            "email": "a@88k.us"
+        }
+    ],
+    "require": {
+        "adduc/javascript_installer": "*",
+        "adduc/jquery": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/Adduc/jquery"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/Adduc/javascript_installer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "javascript-dir": "public/js"
+    }
+}
